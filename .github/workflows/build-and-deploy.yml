@@ -27,10 +27,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Python
+            - name: Install build dependencies and Godot templates
         run: |
           apt-get update
-          apt-get install -y python3
+          apt-get install -y python3 fontconfig fonts-dejavu wget unzip
+
+          GODOT_VERSION="4.7.2.stable"
+          TEMPLATE_DIR="$HOME/.local/share/godot/export_templates/$GODOT_VERSION"
+
+          mkdir -p "$TEMPLATE_DIR"
+
+          wget -q \
+            "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz" \
+            -O /tmp/godot-templates.tpz
+
+          mkdir -p /tmp/godot-templates
+          unzip -q /tmp/godot-templates.tpz -d /tmp/godot-templates
+
+          cp -a /tmp/godot-templates/templates/. "$TEMPLATE_DIR/"
 
       - name: Validate project
         run: python3 tools/validate_project.py

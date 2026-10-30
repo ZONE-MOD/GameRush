@@ -1,0 +1,10 @@
+{
+  "game_name": "Dino Rush",
+  "build_version": "1.0.0",
+  "api_enabled": false,
+  "api_base_url": "https://game.amyratfy8.workers.dev",
+  "admin_panel_url": "https://game.amyratfy8.workers.dev",
+  "support_telegram": "@SharkFlux",
+  "patch_catalog_url": "__PAGES_PATCH_CATALOG_URL__",
+  "offline_demo_mode": true
+}

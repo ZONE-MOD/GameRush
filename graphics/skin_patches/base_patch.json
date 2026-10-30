@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "patch_id": "base_patch_v1",
+  "patch_name": "پچ پایه اسکین‌ها و هلمت‌های Dino Rush",
+  "patch_version": 1,
+  "skins": [
+    {
+      "id": "classic",
+      "name": "کلاسیک",
+      "rarity": "common",
+      "price": 0,
+      "body": "#8fa3a8",
+      "belly": "#d3e0e0",
+      "spike": "#5d7378",
+      "fx": ""
+    },
+    {
+      "id": "forest",
+      "name": "جنگلی",
+      "rarity": "common",
+      "price": 300,
+      "body": "#4fae5a",
+      "belly": "#c3ecae",
+      "spike": "#2f7a3a",
+      "fx": ""
+    },
+    {
+      "id": "desert",
+      "name": "صحرایی",
+      "rarity": "common",
+      "price": 300,
+      "body": "#e0954a",
+      "belly": "#f9dcaa",
+      "spike": "#a8602a",
+      "fx": ""
+    },
+    {
+      "id": "ice",
+      "name": "یخی",
+      "rarity": "rare",
+      "price": 900,
+      "body": "#7fd3ff",
+      "belly": "#e8f9ff",
+      "spike": "#3d9be0",
+      "fx": "frost"
+    },
+    {
+      "id": "magma",
+      "name": "گدازه",
+      "rarity": "rare",
+      "price": 1200,
+      "body": "#3a2020",
+      "belly": "#7a3a28",
+      "spike": "#ff5a1f",
+      "fx": "magma"
+    },
+    {
+      "id": "cyber",
+      "name": "سایبر نئون",
+      "rarity": "epic",
+      "price": 2500,
+      "body": "#1a1740",
+      "belly": "#2d2877",
+      "spike": "#00f0ff",
+      "fx": "cyber"
+    },
+    {
+      "id": "gold",
+      "name": "طلایی سلطنتی",
+      "rarity": "epic",
+      "price": 4500,
+      "body": "#e8b52e",
+      "belly": "#fff0b0",
+      "spike": "#b8860b",
+      "fx": "gold"
+    },
+    {
+      "id": "galaxy",
+      "name": "کهکشانی",
+      "rarity": "legend",
+      "price": -1,
+      "body": "#2a1a5e",
+      "belly": "#5b3fb0",
+      "spike": "#c9a8ff",
+      "fx": "galaxy"
+    },
+    {
+      "id": "ultimate",
+      "name": "فرمانروای کیهانی",
+      "rarity": "ultimate",
+      "price": -1,
+      "body": "#18244f",
+      "belly": "#b9f6ff",
+      "spike": "#ffe08a",
+      "fx": "ultimate"
+    }
+  ],
+  "helmets": [
+    {
+      "id": "none",
+      "name": "بدون هلمت",
+      "rarity": "common",
+      "price": 0,
+      "color": "#9aa4b2"
+    },
+    {
+      "id": "miner",
+      "name": "کلاه معدنچی",
+      "rarity": "common",
+      "price": 400,
+      "color": "#e2aa37"
+    },
+    {
+      "id": "knight",
+      "name": "شوالیه",
+      "rarity": "rare",
+      "price": 1500,
+      "color": "#aeb9c9"
+    },
+    {
+      "id": "astro",
+      "name": "فضانورد",
+      "rarity": "epic",
+      "price": 3500,
+      "color": "#d7e9f4"
+    },
+    {
+      "id": "void",
+      "name": "تاج اژدهای تهی",
+      "rarity": "mythic",
+      "price": -1,
+      "color": "#35112f"
+    },
+    {
+      "id": "ultimate",
+      "name": "تاج ابدیت",
+      "rarity": "ultimate",
+      "price": -1,
+      "color": "#b8f7ff"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.godot/
+.import/
+.export/
+build/
+*.tmp
+*.log
+android/build/
+*.keystore
+*.jks
+.env
+.env.*

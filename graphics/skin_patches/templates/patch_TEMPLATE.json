@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "patch_id": "patch_002_unique_name",
+  "patch_name": "نام پچ جدید",
+  "patch_version": 1,
+  "skins": [
+    {
+      "id": "unique_skin_id",
+      "name": "نام اسکین",
+      "rarity": "rare",
+      "price": 1200,
+      "body": "#7fd3ff",
+      "belly": "#e8f9ff",
+      "spike": "#3d9be0",
+      "fx": "frost"
+    }
+  ],
+  "helmets": []
+}

@@ -8,6 +8,7 @@ import android.webkit.WebChromeClient
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.webkit.WebSettings
 
 class MainActivity : Activity() {
     companion object {
@@ -39,6 +40,7 @@ class MainActivity : Activity() {
                 javaScriptEnabled = true
                 domStorageEnabled = true
                 databaseEnabled = true
+                cacheMode = WebSettings.LOAD_NO_CACHE
                 loadsImagesAutomatically = true
                 javaScriptCanOpenWindowsAutomatically = false
                 setSupportMultipleWindows(false)
@@ -59,6 +61,7 @@ class MainActivity : Activity() {
             webChromeClient = WebChromeClient()
         }
 
+        gameView.clearCache(false) // Clear cached page files only; keep localStorage/profile data.
         setContentView(gameView)
         if (savedInstanceState != null) {
             val restored = gameView.restoreState(savedInstanceState)
